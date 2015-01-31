@@ -1,4 +1,4 @@
-# icu-csdet
+## icu-csdet ##
 
 A charset detection engine library, extracted from ICU.
 
@@ -27,3 +27,21 @@ int main(int argc, char ** argv)
 	icu_csdet_free(det);
 }
 ```
+
+## Building ##
+
+```
+cd /path/to/icu-csdet
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## License ##
+
+icu-csdet is licensed under ICU License.
+
+<blockquote>
+ICU is released under a nonrestrictive [open source license](http://source.icu-project.org/repos/icu/icu/trunk/license.html) that is suitable for use with both commercial software and with other open source or free software.
+</blockquote>
